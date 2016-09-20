@@ -1,0 +1,278 @@
+body {
+	background-color: #E5E5E5;
+}
+
+/* General font families for common tags */
+th,td,p,ul,ol { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; }
+
+.bodyTable  {
+  border-collapse: separate;
+  background-color: #FFFFFF;
+  empty-cells: show;  
+  border: 1px #98AAB1 solid;
+  width: 100%;
+  height: 100%;
+}
+
+/* The largest text used in the index page title and toptic title etc. */
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif; color : #006699;
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+}
+
+h2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif; color : #006699;
+	font-size: 16px;
+}
+
+h3 {
+    font-family: Verdana, Arial, Helvetica, sans-serif; color : #006699;
+	font-size: 14px;
+}
+
+.content {
+  background-color: #FFFFFF;
+  border: 1px #98AAB1 solid;
+}
+
+.messagesBox {
+  border: 2px #006699 solid;
+  margin: 10px 0 10px 0;
+  padding: 1px;
+}
+
+span.postAuthor {
+  font-weight: bold;
+  color: 333333;
+}
+
+span.postAuthorOver {
+  font-weight: bold;
+  color : #006699;
+  cursor: pointer;
+}
+
+span.quoteAuthor {
+  color: 333333;
+  font-size : 10px;
+}
+
+span.quoteAuthorOver {
+  color : #006699;
+  cursor: pointer;
+  font-size : 10px;
+}
+
+img {
+  border: 0;
+}
+
+a.header 	{ text-decoration: none; color : #006699; font-weight: bold; font-size: 16px; }
+a.header:hover{ text-decoration: underline; color : #DD6900; font-weight: bold; font-size: 16px; }
+
+/* 
+Навигационная панель
+Список форумов > Программироваие на PHP > Создание архива
+*/
+a.navigation	{ font-weight: bold; font-size: 11px; text-decoration: none; color : #006699; }
+a.navigation:hover		{ font-weight: bold; font-size: 11px; text-decoration: underline;  color : #006699; }
+
+div.navDiv {  
+  font-size: 11px; 
+  color: #000000; 
+  background-color: #F5F5F5; 
+  padding: 2px;
+  margin: 10px 0 10px 0;
+}
+
+/*
+Постраничная навигация
+*/
+a.pages	{ font-weight: bold; font-size: 12px; text-decoration: none; color : #006699; }
+a.pages:hover { font-weight: bold; font-size: 12px; text-decoration: underline;  color : #006699; }
+div.pagesDiv {  
+  font-size: 12px; 
+  color: #000000; 
+  padding: 2px;
+  margin: 5px 0 5px 0;
+}
+
+a:link,a:active,a:visited { color : #006699; }
+a:hover		{ text-decoration: underline; color : #DD6900; }
+hr	{ height: 0px; border: solid #D1D7DC 0px; border-top-width: 1px;}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #FFFFFF; border: 1px #98AAB1 solid; }
+
+.showTable  {
+  border-collapse: separate;
+  background-color: #FFFFFF;
+  empty-cells: show;  
+  border: 2px #006699 solid;
+  width: 100%;
+  border-spacing: 1px;
+  margin-top:5px; 
+  margin-bottom:5px;
+}
+
+/* Header cells - the blue and silver gradient backgrounds */
+.showTable th {
+	color: #FFA34F; font-size: 11px; font-weight : bold;
+	background-color: #006699; height: 25px;
+}
+
+/* Main table cell colours and backgrounds */
+.showTable td { 
+  background-color: #EEEEEE;
+  padding: 4px;
+ }
+
+.postTable  { 
+  background-color: #FFFFFF;
+  border-collapse: collapse; 
+  width: 100%; 
+  margin-top:10px; 
+  margin-bottom:10px;
+}
+
+.postTable TD {
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+.postTop { background-color: #EEEEEE; }
+.postMiddle { background-color: #FFFFFF; vertical-align: top; }
+.postBottom{ background-color: #EEEEEE; }
+
+.helpline { 
+  background-color: #FFFFFF; 
+  border-style: none;
+  padding: 2px;
+}
+
+
+
+div.mainmenu { border: 2px #006699 solid; }
+
+/* The register, login, search etc links at the top of the page */
+a.mainmenu		{ text-decoration: none; color : #006699; font-size : 14px;  }
+a.mainmenu:hover{ text-decoration: underline; color : #DD6900; font-size : 14px; }
+
+/* Есть непрочитанные сообщения в папке "Входящие" */
+a.newMessages		{ text-decoration: none; color : #DD6900; font-size : 14px;  }
+a.newMessages:hover{ text-decoration: underline; color : #DD6900; font-size : 14px; }
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 1px; color : #006699}
+a.cattitle		{ text-decoration: none; color : #006699; }
+a.cattitle:hover{ text-decoration: underline; }
+
+a.forumlink 	{ text-decoration: none; color : #006699; font-weight: bold; font-size: 14px; }
+a.forumlink:hover{ text-decoration: underline; color : #DD6900; font-weight: bold; font-size: 14px; }
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle { font-weight: bold; font-size: 12px; }
+a.topictitle:link   { text-decoration: none; color : #006699; }
+a.topictitle:visited { text-decoration: none; color : #5493B4; }
+a.topictitle:hover	{ text-decoration: underline; color : #DD6900; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #000000;}
+
+/* Location, number of posts, post date etc */
+.details		{ font-size : 10px; color : #000000; }
+
+.userStatus { font-size : 10px; color : #000000; }
+.moderStatus { font-size : 10px; color : #008000; }
+.adminStatus { font-size : 10px; color : #FF0000; }
+
+.userLocked { font-size : 10px; color : #CC0000; }
+
+.editedByUser  { font-size : 10px; color : #000000; }
+.editedByModer { font-size : 10px; color : #008000; }
+.editedByAdmin { font-size : 10px; color : #FF0000; }
+
+/* The content of the posts (body of text) */
+a.postlink:link	{ text-decoration: none; color : #006699 }
+a.postlink:visited { text-decoration: none; color : #5493B4; }
+a.postlink:hover { text-decoration: underline; color : #DD6900}
+
+/* Quote & Code blocks */
+.code {
+  border:1px solid #DDDDDD; 
+  background-color:#F5F5F5; 
+  padding:5px;
+  margin: 10px;
+  font-size : 12px;
+  font-family: monospace;
+  color : #0000FF;
+  width: 95%;
+  overflow: auto;
+}
+
+.codePHP {
+  border:1px solid #DDDDDD; 
+  background-color:#F5F5F5; 
+  padding:5px;
+  margin: 10px;
+  width: 95%;
+  overflow: auto;
+}
+
+.codeSQL {
+  border:1px solid #DDDDDD; 
+  background-color:#F5F5F5; 
+  padding:5px;
+  margin: 10px;
+  font-size : 14px;
+  font-family: monospace;
+  color : #0000FF;
+  width: 95%;
+  overflow: auto;
+}
+
+.codeJS{
+  border:1px solid #DDDDDD; 
+  background-color:#F5F5F5; 
+  padding:5px;
+  margin: 10px;
+  font-size : 14px;
+  font-family: monospace;
+  width: 95%;
+  overflow: auto;
+}
+
+.codeHTML{
+  border:1px solid #DDDDDD; 
+  background-color:#F5F5F5; 
+  padding:5px;
+  margin: 10px;
+  font-size : 14px;
+  font-family: monospace;
+  width: 95%;
+  overflow: auto;
+}
+
+.quoteContent {
+  border:1px solid #DDDDDD; 
+  background-color:#F5F5F5; 
+  padding:5px;
+  margin: 2px 10px 10px 10px;
+  font-size : 12px; 
+  color : #008000;
+  width: 95%;
+}
+
+.quoteHead { 
+  padding:2px;
+  margin: 5px 10px 2px 10px;
+  font-style: italic; 
+  font-weight: bold;
+  font-size : 12px;
+  width: 95%;
+}
+
+input {margin: 1px;}
+textarea {margin: 1px;}
+
+
